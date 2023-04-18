@@ -50,6 +50,7 @@ public class CRMAutomationDemoObject extends DriverBase{
 	}
 	
 	public void User_select_crm() {
+		sleep(4000);
 		crm_nav.click();
 		sleep(2000);
 	}
