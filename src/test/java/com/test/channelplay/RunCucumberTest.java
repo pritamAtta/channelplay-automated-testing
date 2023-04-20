@@ -7,7 +7,7 @@ import org.testng.annotations.DataProvider;
 		features = "src/test/resources/com/test/channelplay/feature",
 		glue = {"com.test.channelplay.stepDefinition"},
 		tags = "@currentFile",
-		plugin = {"pretty", "rerun:target/rerun.txt", "timeline:target/timeline"}, 
+		plugin = {"pretty", "rerun:target/rerun.txt", "timeline:target/timeline", "json:target/allure-results/cucumber.json"}, 
 	        monochrome=true
 		)
 
